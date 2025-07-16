@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@500&display=swap');
+
+
+
+.font-right {
+  font-family: 'Righteous', cursive;
+}
+
+.font-saira {
+  font-family: 'Saira', sans-serif;
+}
+
+.bg-main-gradient {
+  background: linear-gradient(90deg, #04016C 0%, #4A16BD 100%);
+}
+
+.white-glow {
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.5), transparent 60%);
+}
+
+.blue-radial {
+  background: radial-gradient(circle at 80% 60%, rgba(100, 160, 255, 0.2), transparent 70%);
+}
