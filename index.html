@@ -14,7 +14,7 @@
 <body>
 
   <!-- PAGE 1 -->
-  <div class="flex items-center justify-center flex-col w-[100vw] h-[100vh]">
+  <div class="flex items-center justify-center flex-col w-[100vw] h-auto">
 
     <div
       class="flex flex-row md:flex-row items-center justify-between w-full h-[20vh] md:h-[10vh] lg:h-[10vh] p-4 space-y-4 md:space-y-0 md:space-x-4">
@@ -31,8 +31,10 @@
         <span>Content</span>
       </div>
 
-      <div class="h-auto md:h-full w-full md:w-[10vw] lg:w-[10vw] flex items-center justify-center">
-        <img src="/images/iconspg1.png" class="h-[3vh] md:h-[2.7vh]" alt="Icons" />
+      <div class="h-auto md:h-full w-full md:w-[10vw] lg:w-[10vw] flex flex-col md:flex-row items-center justify-betw">
+        <img src="/images/Group 1.png" class="h-[3vh] md:h-[2.7vh] m-[10%] md:m-[2%] lg:m-[10%]" alt="Icons" />
+        <img src="/images/Icon (1) 2.png" class="h-[2.5vh] md:h-[2.2vh] m-[10%] md:m-[2%] lg:m-[10%]" alt="Icons" />
+        <img src="/images/Icon 2.png" class="h-[2.5vh] md:h-[2.2vh] m-[10%] md:m-[2%] lg:m-[10%]" alt="Icons" />
       </div>
 
       <div
@@ -46,8 +48,7 @@
 
     </div>
 
-    <div class="relative w-full h-[70vh] md:h-[75vh] lg:h-[75vh] overflow-hidden text-white font-saira">
-      <!-- Background image layers -->
+    <div class="relative w-full h-[70vh] md:h-auto lg:h-auto overflow-hidden text-white font-saira">
       <img src="/images/image1.png" class="absolute inset-0 w-full h-full object-cover z-0" />
       <img src="/images/image2.png" class="absolute inset-0 w-full h-full object-cover z-10" />
       <img src="/images/image3.png" class="absolute inset-0 w-full h-full object-none z-20" />
@@ -55,38 +56,37 @@
       <div class="absolute bottom-0 left-1/2 -translate-x-1/2 z-40 w-[2vw] lg:w-[10vw]">
         <svg viewBox="0 0 200 300" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full h-auto">
 
-          <!-- Outer solid path -->
+
           <path d="M10 300 V100 A90 90 0 0 1 190 100 V300" stroke="white" stroke-opacity="0.3" stroke-width="2"
             fill="none" />
 
-          <!-- Middle dotted path -->
+
           <path d="M30 300 V100 A70 70 0 0 1 170 100 V300" stroke="white" stroke-opacity="0.3" stroke-width="2"
             stroke-dasharray="5,5" fill="none" />
 
-          <!-- Inner solid path -->
+
           <path d="M50 300 V100 A50 50 0 0 1 150 100 V300" stroke="white" stroke-opacity="0.3" stroke-width="2"
             fill="none" />
 
         </svg>
       </div>
 
-      <!-- 💡 Combined Wrapper for Left Content, Testimonial & Woman -->
+
       <div
         class="relative z-40 flex flex-col lg:flex-row justify-evenly lg:justify-between items-center h-full w-full px-6 py-6 space-y-10 lg:space-y-0 lg:space-x-6">
 
-        <!-- ✅ 1. Left Content -->
+
         <div class="font-right w-full lg:w-[40vw] flex flex-col space-y-6 items-center lg:items-start lg:m-[5%]">
-          <!-- Subtitle -->
+
           <p class="tracking-widest text-[8px] md:text-[11px] font-medium uppercase text-[#C8BDF0]">
             Successful coaches are visionaries
           </p>
 
-          <!-- Heading -->
+
           <h1 class="text-[12px] md:text-[30px] lg:text-450px] font-bold leading-tight">
             Good <span class="text-[#2C52D3]">coaching</span> is good teaching & nothing else.
           </h1>
 
-          <!-- Buttons -->
           <div
             class="flex flex-col md:flex-row items-center justify-center lg:justify-start space-y-3 md:space-y-0 md:space-x-4 w-full">
             <button
@@ -98,7 +98,6 @@
             </button>
           </div>
 
-          <!-- Search -->
           <div
             class="w-full max-w-md bg-white rounded-lg flex flex-col md:flex-row items-stretch md:items-center justify-between px-4 py-3 mt-4 space-y-3 md:space-y-0 md:space-x-3">
             <input type="text" placeholder="What do you want to learn today?"
@@ -110,10 +109,9 @@
           </div>
         </div>
 
-        <!-- ✅ 2. Testimonial -->
         <div
           class="w-full lg:w-[20vw] text-[6px] md:text-[10px] text-white flex flex-row space-x-2 items-start justify-center px-4">
-          <img src="images/Group 1000014970.png" alt="Testimonial" class="w-10 h-10 object-contain" />
+          <!-- <img src="images/Group 1000014970.png" alt="Testimonial" class="w-10 h-10 object-contain" /> -->
           <div class="space-y-1">
             <p class="font-bold">Shyam</p>
             <p class="leading-snug text-[#D3CFF0]">
@@ -125,13 +123,10 @@
           </div>
         </div>
 
-        <!-- ✅ 3. Woman with Glow -->
         <div class="relative w-[48vw] lg:w-[30vw] lg:flex hidden items-center justify-center">
-          <!-- Glow -->
           <div
             class="absolute w-[95%] h-[95%] rounded-full bg-white opacity-40 blur-[100px] pointer-events-none translate-x-[10%] translate-y-[15%] z-10">
           </div>
-          <!-- Image -->
           <img src="/images/brunette-woman-hugging-laptop_1-removebg-preview.png"
             class="relative z-20 w-full h-auto object-contain" alt="Highlight" />
         </div>
@@ -140,9 +135,9 @@
     </div>
 
 
-    <div class="w-full h-auto md:h-[15vh] lg:h-[15vh]">
+    <div class="w-full h-auto">
       <div
-        class="flex flex-col lg:flex-row items-center justify-evenly space-y-6 lg:space-y-0 lg:space-x-6 h-auto lg:h-full w-full bg-gradient-to-r from-[#3007A0] to-[#8E61DB]">
+        class="flex flex-row items-center justify-evenly lg:space-y-0 lg:space-x-6 h-auto lg:h-full w-full bg-gradient-to-r from-[#3007A0] to-[#8E61DB] p-[3%]">
 
         <img src="/images/Link ⏵ brand1.png (1).png" alt="Logo 1"
           class="h-[0.5rem] lg:h-[1.5rem] w-auto object-contain" />
@@ -403,7 +398,28 @@
     </div>
   </section>
 
-  <section class="bg-gradient-to-b from-[#f0f8ff] to-white py-12 px-4 text-center font-saira">
+  
+
+
+  <section class="bg-gradient-to-b from-white to-[#DBEDFF] py-12 px-4 text-center font-saira">
+
+    <div class="relative w-[50%] max-w-4xl mx-auto rounded-3xl overflow-hidden shadow-lg mb-[10%]">
+    <!-- Static Cover Image -->
+    <img src="/images/Rectangle 8691.png" alt="Video Preview" class="w-full h-auto object-cover rounded-3xl" />
+  
+    <!-- Play Button (non-functional) -->
+    <div class="absolute inset-0 flex items-center justify-center z-10">
+      <div class="w-24 h-24 bg-white/50 backdrop-blur-md rounded-full flex items-center justify-center">
+        <div
+          class="w-16 h-16 bg-gradient-to-tr from-purple-400 to-green-400 rounded-full flex items-center justify-center">
+          <!-- Play Icon -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M8 5v14l11-7z" />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-[#0E38CD] mb-2">
       Testimonials
